@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Doctor Samiee!</title>
+  </head>
+  <body class="bg-gray-900">
+    <div class="shadow-md rounded-lg mx-8 my-4 overflow-x-hidden">
+      <table class="w-full text-sm text-left text-gray-400">
+        <thead class="w-full text-xs bg-gray-700 text-gray-400 uppercase">
+          <tr>
+            <th class="px-6 py-3">#</th>
+            <th class="px-6 py-3">first name</th>
+            <th class="px-6 py-3">last name</th>
+            <th class="px-6 py-3">date</th>
+            <th></th>
+          </tr>
+          <tr>
+            <th class="px-6 py-4"></th>
+            <th class="px-6 py-4">
+              <input
+                id="user-first-name"
+                class="text-lg text-black p-1"
+                type="text"
+              />
+            </th>
+            <th class="px-6 py-4">
+              <input
+                id="user-last-name"
+                class="text-lg text-black p-1"
+                type="text"
+              />
+            </th>
+            <th class="px-6 py-4">
+              <input
+                id="user-date"
+                class="text-lg text-black p-1"
+                type="text"
+              />
+            </th>
+            <th class="px-6 py-4">
+              <button
+                class="bg-green-700 text-white font-medium text-base px-5 py-2.5 rounded-lg hover:bg-green-500"
+                id="submit-btn"
+              >
+                submit
+              </button>
+            </th>
+          </tr>
+        </thead>
+        <tbody id="users">
+          <tr class="border-b border-gray-600 odd:bg-gray-800 even:bg-gray-700">
+            <td class="px-6 py-4 font-medium text-white">1</td>
+            <td class="px-6 py-4">Ali</td>
+            <td class="px-6 py-4">nili</td>
+            <td class="px-6 py-4">2022-01-01</td>
+            <td></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
